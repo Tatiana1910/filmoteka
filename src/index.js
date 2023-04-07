@@ -1,0 +1,13 @@
+import './js/components/indicate-key';
+import './js/components/add-btn';
+import './js/components/card-render';
+import './js/components/popcorn-plug';
+import './js/components/fetch';
+import './js/components/scrollToTop';
+import './js/films-render';
+import './js/components/modal';
+import './js/components/spinner';
+import './js/pagination';
+import './js/user-data';
+import './js/components/trailer'
+import './js/toggle-theme';

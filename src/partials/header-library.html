@@ -1,0 +1,39 @@
+<header class="header-library">
+  <div class="header-library__container">
+    <nav class="header-library__nav logo">
+      <a class="logo__link" href="./index.html">
+        <svg class="logo__icon" width="24" height="24">
+          <use href="./images/svg-sprite.svg#logo"></use>
+        </svg>
+        <span class="logo__text">Filmoteka</span>
+      </a>
+      <ul class="site-nav">
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="./index.html">Home</a>
+        </li>
+        <li class="site-nav__item">
+          <a
+            class="site-nav__link site-nav__link--current"
+            href="./library.html"
+            >my library</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="header-library__btn btn">
+      <button class="btn__watched" type="button">Watched</button>
+      <button class="btn__queue" type="button">Queue</button>
+    </div>
+    <button class="themetoggle" type="button">
+      <svg class="themetoggle__sun-button">
+        <use class="moon" id="moon" href="./images/svg-sprite.svg#moon"></use>
+        <use class="sun" id="sun" href="./images/svg-sprite.svg#sunny"></use>
+      </svg>
+    </button>
+  </div>
+  <a class="scroll__up" href="#" id="scroll--to_top">
+    <svg width="40" height="40">
+      <use href="./images/svg-sprite.svg#icon-go-top"></use>
+    </svg>
+  </a>
+</header>

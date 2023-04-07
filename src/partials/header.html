@@ -1,0 +1,43 @@
+<header class="header">
+  <div class="header__container">
+    <nav class="header__nav logo">
+      <a href="" class="logo__link">
+        <svg class="logo__icon" width="24" height="24">
+          <use href="./images/svg-sprite.svg#logo"></use>
+        </svg>
+        <span class="logo__text">Filmoteka</span>
+        <ul class="header__nav-list nav__list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--current" href="./index.html">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./library.html">My library</a>
+          </li>
+        </ul>
+      </a>
+    </nav>
+    <form class="form">
+      <input class="form__input" type="text" placeholder="Movie search" />
+      <p class="form__message form__message--error" hidden>
+        Search result not successful. Enter the correct movie name and try
+        again.
+      </p>
+      <button class="form__btn" type="submit">
+        <svg class="form__icon" width="12" height="12">
+          <use href="./images/svg-sprite.svg#search"></use>
+        </svg>
+      </button>
+    </form>
+    <button class="themetoggle" type="button">
+      <svg class="themetoggle__sun-button">
+        <use class="moon" id="moon" href="./images/svg-sprite.svg#moon"></use>
+        <use class="sun" id="sun" href="./images/svg-sprite.svg#sunny"></use>
+      </svg>
+    </button>
+  </div>
+  <a class="scroll__up" href="#" id="scroll--to_top">
+    <svg width="40" height="40">
+      <use href="./images/svg-sprite.svg#icon-go-top"></use>
+    </svg>
+  </a>
+</header>
